@@ -1,0 +1,40 @@
+#  Robot-Manager was used to generate this file.
+#  Copyright (c) 2001-2002 by Sophtware.com, Inc.  All Rights Reserved.
+#  http://www.websitemanagementtools.com/
+
+#  PARTIAL access (Google)
+#  NO access (Google)
+User-agent: Googlebot
+Allow: /
+
+Disallow: /cgi-bin/
+Disallow: /css/
+Disallow: /fonts/
+
+Disallow: /_secure-files/
+
+
+#  PARTIAL access (Google Image)
+#  NO access (Google Image)
+User-agent: Googlebot-Image
+Allow: /google-images-allowed/
+
+
+Disallow: /cgi-bin/
+Disallow: /css/
+Disallow: /fonts/
+
+Disallow: /_secure-files/
+
+
+#  PARTIAL access (All Spiders)
+#  NO access (All Spiders)
+User-agent: *
+Disallow: /
+
+
+Disallow: /cgi-bin/
+Disallow: /css/
+Disallow: /fonts/
+
+Disallow: /_secure-files/
